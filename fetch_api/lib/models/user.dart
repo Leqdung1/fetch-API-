@@ -16,13 +16,13 @@ class User {
 }
 
 class Name {
-  String? firt;
+  String? first;
   String? last;
 
-  Name({this.firt, this.last});
+  Name({this.first, this.last});
 
   Name.fromJson(Map<String, dynamic> json)
-      : firt = json['first'],
+      : first = json['first'],
         last = json['last'];
 }
 
